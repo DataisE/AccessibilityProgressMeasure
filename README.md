@@ -1,9 +1,12 @@
-## Overview 
+## Project Overview 
 Accessibility Canada Act requires federally regulated organizations doing business in certain sectors and with more than 10 employees to publish accessibility plans and follow these up in a year with a progress report. the plans are required to be updated every 3 years. This is an effort to improve accommodations for people with disabilities to increase their participation and maximize their potential. 
 
 Hundreds of regulated organizations must publish accessibility plans, each identifying unique barriers and solutions. This diversity complicates standardized monitoring and assessment of progress within mandated accessibility areas.
 
 This project helps stakeholders - including federal regulators, inclusive service organizations, public and private sector entities- analyze accessibility progress to enable them identify gaps, and strategically realign priorities based on findings.
+
+We implemented RAG with OpenAI models to extract data from accessibility plans and reports. Through iterative testing, we refined prompts to efficiently gather required information and calculate metrics. The structured output was stored in a delta table and used to create a PowerBI semantic model."
+Challenges in developing a solution using fabric.
 
 ## Challenges in developing a solution
 As we would have required integration with tools that would allow locating plans and progress reports posted by a large number of organizations on the web making the solution more complicated for implementation within the time we had, we have manually located and uploaded a few places for this MVP 
