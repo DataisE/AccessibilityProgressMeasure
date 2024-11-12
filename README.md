@@ -5,8 +5,9 @@ Hundreds of regulated organizations must publish accessibility plans, each ident
 
 This project helps stakeholders - including federal regulators, inclusive service organizations, public and private sector entities- analyze accessibility progress to enable them identify gaps, and strategically realign priorities based on findings.
 
-We implemented RAG with OpenAI models to extract data from accessibility plans and reports. Through iterative testing, we refined prompts to efficiently gather required information and calculate metrics. The structured output was stored in a delta table and used to create a PowerBI semantic model."
-Challenges in developing a solution using fabric.
+We implemented RAG with OpenAI models to extract data from accessibility plans and reports. Through iterative testing, we refined prompts to efficiently gather required information and calculate metrics. The structured output was stored in a delta table and used to create a PowerBI semantic model.
+
+The Git repository contains our Python notebooks which process the Accessibility Plans and Progress Reports. It also contains the PBIX file which connects to the semantic model in Fabric. The other resources have been shown in images below: the pipelines within Fabric that we created with the visual editor and how we organized the data within our Lakehouse.
 
 ## Challenges in developing a solution
 As we would have required integration with tools that would allow locating plans and progress reports posted by a large number of organizations on the web making the solution more complicated for implementation within the time we had, we have manually located and uploaded a few places for this MVP 
